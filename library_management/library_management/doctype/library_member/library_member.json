@@ -1,0 +1,103 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:LM-{MM}/{YYYY}-{###}",
+ "creation": "2024-01-29 16:38:38.448970",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_rn0z",
+  "first_name",
+  "last_name",
+  "full_name",
+  "email_address",
+  "phone_number",
+  "memberships"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_rn0z",
+   "fieldtype": "Section Break",
+   "label": "Details"
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "first_name",
+   "fieldtype": "Data",
+   "label": "First Name",
+   "length": 15,
+   "reqd": 1
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "last_name",
+   "fieldtype": "Data",
+   "label": "Last Name",
+   "length": 15
+  },
+  {
+   "fieldname": "email_address",
+   "fieldtype": "Data",
+   "label": "Email Address",
+   "unique": 1
+  },
+  {
+   "fieldname": "phone_number",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Phone Number",
+   "length": 10,
+   "non_negative": 1
+  },
+  {
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Full Name",
+   "read_only": 1
+  },
+  {
+   "fieldname": "memberships",
+   "fieldtype": "Table",
+   "label": "Memberships",
+   "options": "Library Membership"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-01-30 12:39:29.684069",
+ "modified_by": "Administrator",
+ "module": "Library Management",
+ "name": "Library Member",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Library Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

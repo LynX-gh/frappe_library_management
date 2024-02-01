@@ -1,0 +1,13 @@
+	<div class="col-md-auto">	
+		<div class="card {{ 'border-success' if doc.status == 'Available' else 'border-danger'}} mb-5" style="width: 40%">
+			<div class="card-header">{{doc.name}}</div>
+			<img src={{doc.image}} class="card-img-top" alt="{{doc.name}}">
+			<div class="card-body">
+			<h5 class="card-title">{{doc.article_name}}</h5>
+			<p class="card-text">By - {{doc.author}}</p>
+			<a href="{{doc.route}}" class="btn btn-primary">Detail View</a>
+			</div>
+		</div>
+	</div>
+	<br>
+<!-- this is a sample default list template -->

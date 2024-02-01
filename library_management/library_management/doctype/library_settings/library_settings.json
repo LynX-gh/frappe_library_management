@@ -1,0 +1,51 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-01-30 18:46:21.739966",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_30wp",
+  "loan_period",
+  "max_articles"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_30wp",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "loan_period",
+   "fieldtype": "Duration",
+   "label": "Loan Period"
+  },
+  {
+   "fieldname": "max_articles",
+   "fieldtype": "Int",
+   "label": "Maximum Number of Issued Documents"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2024-01-31 10:44:51.599141",
+ "modified_by": "Administrator",
+ "module": "Library Management",
+ "name": "Library Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

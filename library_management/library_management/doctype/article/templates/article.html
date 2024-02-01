@@ -1,0 +1,62 @@
+{% extends "templates/web.html" %}
+
+{% block page_content %}
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-4">
+            <h1><img alt="{{name}}" src="{{image}}"></h1>
+        </div>
+        <div class='col-1'></div>
+        <div class="col-6">
+            <div class="row row-cols-1">
+                <div class="col">
+                    <h1>{{ article_name }}</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col align-self-center">
+                    <span class="indicator-pill {{'green' if status == 'Available' else 'red'}}">{{status}}</span> 
+                </div>
+            </div>
+            <div class="row">
+                <div class="col align-self-center">
+                    <br> 
+                </div>
+            </div>
+                <div class="row row-cols-2">
+                    <div class="col col-lg-2">
+                        <p class="font-weight-bold">Author</p>
+                    </div>
+                    <div class="col-md-auto">
+                        <p>{{ author }}</p>
+                    </div>
+                </div>
+                <div class="row row-cols-2">
+                    <div class="col col-lg-2">
+                        <p class="font-weight-bold">ISBN</p>
+                    </div>
+                    <div class="col-md-auto">
+                        <p>{{ isbn }}</p>
+                    </div>
+                </div>
+                <div class="row row-cols-2">
+                    <div class="col col-lg-2">
+                        <p class="font-weight-bold">Publisher</p>
+                    </div>
+                    <div class="col-md-auto">
+                        <p>{{ publisher }}</p>
+                    </div>
+                </div>
+                <div class="row row-cols-1">
+                    <div class='col col-md-auto'>
+                        {{ description }}
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+<!-- this is a sample default web page template -->
