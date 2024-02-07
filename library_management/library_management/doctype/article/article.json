@@ -65,6 +65,7 @@
    "fieldname": "status",
    "fieldtype": "Select",
    "in_filter": 1,
+   "in_list_view": 1,
    "in_standard_filter": 1,
    "label": "Status",
    "options": "Issued\nAvailable"
@@ -104,7 +105,7 @@
  "image_field": "image",
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-01-31 10:53:49.935408",
+ "modified": "2024-02-07 16:33:49.923817",
  "modified_by": "Administrator",
  "module": "Library Management",
  "name": "Article",

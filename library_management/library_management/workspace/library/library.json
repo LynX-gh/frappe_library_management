@@ -1,0 +1,64 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"BE_wWpFjl-\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Library</span>\",\"col\":12}},{\"id\":\"TizSaFlqV4\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Members -\",\"col\":6}},{\"id\":\"F5sTaImU5x\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Articles\",\"col\":6}},{\"id\":\"fUIWKgx0Z0\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"New Articles\",\"col\":4}},{\"id\":\"XgLMX_3cgb\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"New Members\",\"col\":4}},{\"id\":\"udwAaT08ek\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Recent Transactions\",\"col\":4}}]",
+ "creation": "2024-02-01 12:42:58.650216",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "projects",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "Library",
+ "links": [],
+ "modified": "2024-02-02 10:31:18.122100",
+ "modified_by": "Administrator",
+ "module": "Library Management",
+ "name": "Library",
+ "number_cards": [
+  {
+   "label": "Total Members -",
+   "number_card_name": "Members"
+  },
+  {
+   "label": "Total Articles",
+   "number_card_name": "Articles"
+  }
+ ],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [
+  {
+   "document_type": "Article",
+   "label": "New Articles",
+   "quick_list_filter": "[]"
+  },
+  {
+   "document_type": "Library Member",
+   "label": "New Members",
+   "quick_list_filter": "[]"
+  },
+  {
+   "document_type": "Library Transaction",
+   "label": "Recent Transactions",
+   "quick_list_filter": "[]"
+  }
+ ],
+ "roles": [
+  {
+   "role": "System Manager"
+  },
+  {
+   "role": "Library Manager"
+  },
+  {
+   "role": "Library Member"
+  }
+ ],
+ "sequence_id": 2.0,
+ "shortcuts": [],
+ "title": "Library"
+}
